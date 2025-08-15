@@ -22,10 +22,12 @@ body {
 
 #hero-section {
   min-height: 100vh;
+  background-color: #2c3e50;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/arbre_montagne.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
