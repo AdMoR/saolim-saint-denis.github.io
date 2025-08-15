@@ -223,10 +223,6 @@ body {
 .project-header-image {
   width: 100%;
   height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
 }
 
 #project-details {
@@ -379,10 +375,6 @@ body {
   .organization-logo {
     max-width: 120px;
   }
-  
-  .project-header-image {
-    max-height: 300px;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
@@ -428,10 +420,6 @@ body {
   
   .organization-logo {
     max-width: 100px;
-  }
-  
-  .project-header-image {
-    max-height: 250px;
   }
 }
 
