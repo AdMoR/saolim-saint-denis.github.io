@@ -62,13 +62,6 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.hero-logo-sdus {
-  width: 100px;
-  height: auto;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
-}
-
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -274,6 +267,17 @@ body {
       height: auto;
     }
 
+/* Organization Logo Styling */
+
+.organization-logo {
+  max-width: 200px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
@@ -367,6 +371,10 @@ body {
   .hero-logo-sdus {
     width: 70px;
   }
+  
+  .organization-logo {
+    max-width: 120px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and below) */
@@ -408,6 +416,10 @@ body {
   
   .hero-logo-sdus {
     width: 60px;
+  }
+  
+  .organization-logo {
+    max-width: 100px;
   }
 }
 
